@@ -1,8 +1,8 @@
 "use client"
 import * as NBAIcons from 'react-nba-logos'; <NBAIcons.TOR/>
 import { useState } from 'react';
-import TraeYoung from './players/trae_young';
-import ZionWilliamson from './players/zion_williamson';
+import TraeYoung from './trae_young';
+import ZionWilliamson from './zion_williamson';
 
 function Accordion({ title, children }) {
   const [isOpen, setIsOpen] = useState(false);
