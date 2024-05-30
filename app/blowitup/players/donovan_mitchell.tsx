@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import Papa from 'papaparse';
 
-const ZionWilliamson: React.FC = () => {
-    const [playerName, setPlayerName] = useState<string>('Zion Williamson');
+const DonovanMitchell: React.FC = () => {
+    const [playerName, setPlayerName] = useState<string>('Donovan Mitchell');
     const [playerStats, setPlayerStats] = useState<{ [key: string]: number }>({});
     const svgRef = useRef<SVGSVGElement | null>(null);
 
@@ -134,7 +134,7 @@ const ZionWilliamson: React.FC = () => {
     );
 };
 
-export default ZionWilliamson;
+export default DonovanMitchell;
 
 function roundToTwoDecimals(num: number) {
     return Math.round((num + Number.EPSILON) * 100) / 100;}

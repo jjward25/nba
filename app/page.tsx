@@ -1,5 +1,5 @@
 "use client"
-import Atl from './blowitup/hawks'
+import Atl from './blowitup/teams/hawks'
 
 export default function Home() {
   return ( 
@@ -8,7 +8,7 @@ export default function Home() {
         The Annual NBA <em className='bg-clip-text text-transparent bg-gradient-to-r from-amber-600 via-neutral-400 to-red-800'>Blow-it-Up </em> Article
       </h1>
       <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'></div>
-      <em className='mb-4 mx-4'>{`It's the end of the year so we're looking at 3 of the biggest trades we think each team could make to improve.`}</em>
+      <em className='mb-4 mx-4'>{`It's the end of the year so we're looking at the biggest trades we think each team could make this offseason.`}</em>
       <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'></div>
       <Atl/> 
       <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'></div>
