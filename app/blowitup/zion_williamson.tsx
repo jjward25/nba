@@ -24,12 +24,19 @@ const ZionWilliamson: React.FC = () => {
 
                 // Extract stats for the player
                 const stats = {
+                    // @ts-ignore
                     PTS: roundToTwoDecimals(1-(Number(filteredData.PTS_RANK)/572)),
+                    // @ts-ignore
                     REB: roundToTwoDecimals(1-(Number(filteredData.REB_RANK)/572)),
+                    // @ts-ignore
                     AST: roundToTwoDecimals(1-(Number(filteredData.AST_RANK)/572)),
+                    // @ts-ignore
                     STL: roundToTwoDecimals(1-(Number(filteredData.STL_RANK)/572)),
+                    // @ts-ignore
                     BLK: roundToTwoDecimals(1-(Number(filteredData.BLK_RANK)/572)),
+                    // @ts-ignore
                     FG3_PCT: roundToTwoDecimals(1-(Number(filteredData.FG3_PCT_RANK)/572)),
+                    // @ts-ignore
                     PLUS_MINUS: roundToTwoDecimals(1-(Number(filteredData.PLUS_MINUS_RANK)/572)),
                 };
 
