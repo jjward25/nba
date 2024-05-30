@@ -4,7 +4,7 @@ import { useState } from 'react';
 import TraeYoung from './trae_young';
 import ZionWilliamson from './zion_williamson';
 
-function Accordion({ title, children }) {
+function Accordion({title,children}: {title: string, children: string }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAccordion = () => {
