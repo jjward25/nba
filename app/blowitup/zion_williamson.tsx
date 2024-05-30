@@ -15,7 +15,7 @@ const ZionWilliamson: React.FC = () => {
             download: true,
             header: true,
             complete: (results) => {
-                const filteredData = results.data.find((row) => row.PLAYER_NAME === playerName);
+                const filteredData = results.data.find((row) => (row as any).PLAYER_NAME === playerName);
 
                 if (!filteredData) {
                     console.error(`Player with name '${playerName}' not found in the data.`);
