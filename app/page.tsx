@@ -13,5 +13,5 @@ export default function Home() {
       <Atl/>
       <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'></div>
     </main>
-  );
+  ); 
 }
