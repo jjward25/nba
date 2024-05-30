@@ -2,7 +2,7 @@
 import Atl from './blowitup/hawks'
 
 export default function Home() {
-  return (
+  return ( 
     <main className="flex min-h-screen flex-col mx-auto items-center justify-start p-10 w-auto max-w-[1250px]">
       <h1 className="text-2xl mb-4 tracking-tighter font-semibold">
         The Annual NBA <em className='bg-clip-text text-transparent bg-gradient-to-r from-amber-600 via-neutral-400 to-red-800'>Blow-it-Up </em> Article
