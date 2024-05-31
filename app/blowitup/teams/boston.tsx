@@ -37,7 +37,18 @@ export default function Bos() {
     <section className='w-full'>
       <div className='flex flex-col'>
         <div className="mb-4 flex flex-col justify-center md:flex-row">
-          <p className="hover:scale-105 md:mr-3 mb-6 md:mb-0 mx-auto md:w-auto flex justify-center items-center rounded-full md:rounded-lg border p-1 text-sm leading-4 border-neutral-200  text-neutral-100 no-underline bg-gradient-to-r from-green-700 to-black">
+        <div className='w-20 h-20 relative mx-auto md:h-0 md:w-0 mb-6 md:mb-0'>
+            <div className="absolute inset-0 
+                        bg-gradient-to-r from-green-800 to-black animate-spin rounded-full 
+                        z-10 min-h-full">
+            </div>
+            <div className="absolute inset-0 flex 
+                        items-center justify-center
+                        text-white z-20 md:w-0 md:h-0">
+                  <NBAIcons.BOS/>
+            </div>
+          </div>
+          <p className="md:hover:scale-105 md:mr-3 m-0 w-0 h-0 md:h-auto md:p-0 md:w-auto flex justify-center items-center rounded-full md:rounded-lg text-sm border-neutral-200 text-neutral-100 no-underline bg-gradient-to-r from-green-500 to-black">
             <NBAIcons.BOS/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">

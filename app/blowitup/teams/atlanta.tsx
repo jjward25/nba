@@ -34,9 +34,22 @@ export default function Atl() {
     <section className='w-full'>
       <div className='flex flex-col'>
         <div className="mb-4 flex flex-col justify-center md:flex-row">
-          <p className="hover:scale-105 md:mr-3 mb-6 md:mb-0 mx-auto md:w-auto flex justify-center items-center rounded-full md:rounded-lg border p-1 text-sm leading-4 border-neutral-200  text-neutral-100 no-underline bg-gradient-to-r from-red-500 to-black">
+
+          <div className='w-20 h-20 relative mx-auto md:h-0 md:w-0 mb-6 md:mb-0'>
+            <div className="absolute inset-0 
+                        bg-gradient-to-r from-red-800 to-black animate-spin rounded-full 
+                        z-10 min-h-full">
+            </div>
+            <div className="absolute inset-0 flex 
+                        items-center justify-center
+                        text-white z-20 md:w-0 md:h-0">
+                  <NBAIcons.ATL/>
+            </div>
+          </div>
+          <p className="md:hover:scale-105 md:mr-3 m-0 w-0 h-0 md:h-auto md:p-0 md:w-auto flex justify-center items-center rounded-full md:rounded-lg text-sm border-neutral-200 text-neutral-100 no-underline bg-gradient-to-r from-red-500 to-black">
             <NBAIcons.ATL/>
           </p>
+
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
             <h3 className='text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-red-600 via-neutral-600 to-red-600'>Atlanta Hawks</h3>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`The Hawks had a big year for anyone who thinks the play-in tournament is dumb.  They finished in the 10th seed and lost their single elimination game, and reports of toxic chemistry are outshadowed only by the 1st-hour assassination in Cleveland.`}</p>
