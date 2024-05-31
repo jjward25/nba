@@ -14,7 +14,7 @@ function Accordion({title,children}: {title: string, children: any }) {
   };
 
   return (
-    <div className="border border-white  rounded-lg mb-4 mx-4  md:min-w-[550px]">
+    <div className="border border-white  rounded-lg mb-4 md:mx-4 md:min-w-[550px]">
       <div className={`bg-neutral-800 hover:bg-black  cursor-pointer flex items-center justify-between round p-4 leading-4 h-9 ${isOpen ? 'border-b-1 border-white bg-gradient-to-r from-black to-neutral-600 rounded-tl-lg rounded-tr-lg' : 'rounded-lg'}`} onClick={toggleAccordion}>
         <h3 className={`h-auto text-md no-underline font-semibold text-neutral-100 ${isOpen? 'bg-clip-text text-transparent bg-gradient-to-r from-neutral-500 via-neutral-100 to-neutral-700' : '' }`}>{title}</h3>
         <svg className={`ml-2 w-5 h-5 text-white transition-transform duration-6000 transform ${isOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
