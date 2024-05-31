@@ -34,7 +34,7 @@ export default function Atl() {
     <section className='w-full'>
       <div className='flex flex-col'>
         <div className="mb-4 flex flex-col justify-center md:flex-row">
-          <p className="md:mr-3 mb-3 md:mb-0 mx-auto md:w-auto flex justify-center items-center rounded-full md:rounded-lg border p-1 text-sm leading-4 border-neutral-200  text-neutral-100 no-underline bg-gradient-to-r from-red-500 to-black">
+          <p className="md:mr-3 mb-6 md:mb-0 mx-auto md:w-auto flex justify-center items-center rounded-full md:rounded-lg border p-1 text-sm leading-4 border-neutral-200  text-neutral-100 no-underline bg-gradient-to-r from-red-500 to-black">
             <NBAIcons.ATL/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
