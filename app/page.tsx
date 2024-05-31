@@ -1,7 +1,6 @@
 "use client"
 import Atl from './blowitup/teams/atlanta';
 import Bos from './blowitup/teams/boston';
-import Orl from './blowitup/teams/orlando';
 import Bkn from './blowitup/teams/brooklyn';
 import Chl from './blowitup/teams/charlotte';
 import Chi from './blowitup/teams/chicago';

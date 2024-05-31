@@ -1,5 +1,5 @@
 "use client"
-import * as NBAIcons from 'react-nba-logos'; <NBAIcons.TOR/>
+import * as NBAIcons from 'react-nba-logos'; 
 import { useState } from 'react';
 import TraeYoung from '../players/trae_young';
 import DonovanMitchell from '../players/donovan_mitchell';
@@ -34,7 +34,7 @@ export default function Atl() {
     <section className='w-full'>
       <div className='flex flex-col'>
         <div className="mb-4 flex flex-col justify-center md:flex-row">
-          <p className="md:mr-3 mb-6 md:mb-0 mx-auto md:w-auto flex justify-center items-center rounded-full md:rounded-lg border p-1 text-sm leading-4 border-neutral-200  text-neutral-100 no-underline bg-gradient-to-r from-red-500 to-black">
+          <p className="hover:scale-105 md:mr-3 mb-6 md:mb-0 mx-auto md:w-auto flex justify-center items-center rounded-full md:rounded-lg border p-1 text-sm leading-4 border-neutral-200  text-neutral-100 no-underline bg-gradient-to-r from-red-500 to-black">
             <NBAIcons.ATL/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
@@ -50,13 +50,13 @@ export default function Atl() {
               <div className='m-0 h-auto w-full border-2 border-neutral-100'/>
               <div className='flex flex-wrap mt-4'>
                 <div className='flex flex-col mb-3 mx-auto md:ml-3 md:mr-3'>
-                  <em className='md:max-w-[300px] font-semibold'>Atlanta receives:</em> 
+                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Atlanta receives:</em> 
                   <div className='flex flex-wrap justify-center md:space-x-3'>
                     <DonovanMitchell/>
                   </div>
                 </div>
                 <div className='flex flex-col mb-3 mx-auto md:ml-0 md:mr-3'>
-                  <em className='md:max-w-[300px] font-semibold'>Cleveland receives:</em>
+                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Cleveland receives:</em>
                   <div className='flex flex-wrap justify-center md:space-x-3'>
                     <TraeYoung/>
                   </div>

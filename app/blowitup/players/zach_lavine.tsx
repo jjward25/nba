@@ -91,7 +91,7 @@ const ZachLavine: React.FC = () => {
             .attr('text-anchor', 'middle')
             .attr('dy', '0.35em')
             .style('font-weight', 'bold')
-            .style('fill', 'white');
+            .style('fill', 'black');
     
         const radarArea = svg.append('g')
             .attr('class', 'radarArea');
@@ -112,7 +112,7 @@ const ZachLavine: React.FC = () => {
             .attr('cx', (d, i) => radius * Math.cos(angleSlice * i - Math.PI / 2) * (playerStats[d] / maxValue))
             .attr('cy', (d, i) => radius * Math.sin(angleSlice * i - Math.PI / 2) * (playerStats[d] / maxValue))
             .attr('r', 3)
-            .style('fill', 'white');
+            .style('fill', 'black');
     
     }, [playerStats]);    
     
@@ -121,7 +121,7 @@ const ZachLavine: React.FC = () => {
     };
 
     return (
-        <div className='flex flex-col rounded-lg mt-2 p-2 mx-0 border-2 border-red-800 max-w-[250px]'>
+        <div className='flex flex-col rounded-lg mt-2 md:mr-4 p-2 mx-0 border-2 border-red-800 max-w-[250px]'>
             <input
                 type="text"
                 placeholder="Enter player name"
