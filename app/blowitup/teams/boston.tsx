@@ -36,7 +36,7 @@ export default function Bos() {
   return (
     <section className='w-full'>
       <div className='flex flex-col'>
-        <div className="mt-4 mb-4 flex flex-col md:flex-row">
+        <div className="mb-4 flex flex-col md:flex-row">
           <p className="mr-3 mb-3 md:mb-0 w-full md:w-auto flex justify-center items-center rounded border  p-1 text-sm leading-4 border-neutral-700 bg-neutral-800 text-neutral-100 no-underline hover:bg-gradient-to-r from-neutral-500 to-black">
             <NBAIcons.BOS/>
           </p>

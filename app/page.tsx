@@ -6,17 +6,20 @@ import Bkn from './blowitup/teams/brooklyn';
 import Chl from './blowitup/teams/charlotte';
 import Chi from './blowitup/teams/chicago';
 import Cle from './blowitup/teams/cleveland'; 
+//import { Danfo } from "next/font/google";
+
+
 
 export default function Home() {
   return ( 
-    <main className="flex min-h-screen flex-col mx-auto items-center justify-start p-10 w-auto max-w-[1250px]">
+    <main className="font-inter flex min-h-screen flex-col mx-auto items-center justify-start p-10 w-auto max-w-[1000px] bg-neutral-100">
       <h1 className="text-2xl mb-4 tracking-tighter font-semibold">
-        The Annual NBA <em className='bg-clip-text text-transparent bg-gradient-to-r from-amber-600 via-neutral-400 to-red-800'>Blow-it-Up </em> Post
+        The Annual NBA <strong className={`bg-clip-text text-transparent w-screen animated-background h-screen animate-pulse bg-gradient-to-r from-amber-500 via-red-500 to-indigo-500`}>Blow-it-Up </strong> Post
       </h1>
-      <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
-      <em className='mb-4 mx-4 max-w-[750px]'>{`It's the end of the year and 29 teams have work to do, so we're looking at the biggest trades we think each team could make this offseason.`}</em>
-      <em className='mb-4 mx-4 text-neutral-600 max-w-[750px]'>{`Individual player cards show player percentile ranks for this past season. So "0.99" for Trae Young AST means he was in the 99th percentile for Total Assists this year (very good).`}</em>
-      <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+      <div className='mt-3 mb-6 border-double h-auto w-full border-2 border-neutral-600'/>
+      <p className='mb-4 mx-4 max-w-[700px] text-[.9rem]'>{`It's the end of the year and 29 teams have work to do. GMs might hang up as soon as these players are mentioned but we're imagining each team is going all-in for next year and putting their biggest names on the block.`}</p>
+      <p className='mb-4 mx-4 max-w-[700px] text-[.9rem]'>{`The individual player cards in the trades show player percentile ranks for this past season. So "0.99" for Trae Young AST means he was in the 99th percentile for Total Assists this year (very good).`}</p>
+      <div className='mt-3 mb-6 border-double h-auto w-full border-2 border-neutral-600'/>
       <Atl/> 
       <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
       <Bos/>
