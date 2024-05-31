@@ -91,7 +91,7 @@ const DonovanMitchell: React.FC = () => {
             .attr('text-anchor', 'middle')
             .attr('dy', '0.35em')
             .style('font-weight', 'bold')
-            .style('fill', 'white');
+            .style('fill', 'black');
     
         const radarArea = svg.append('g')
             .attr('class', 'radarArea');
@@ -112,7 +112,7 @@ const DonovanMitchell: React.FC = () => {
             .attr('cx', (d, i) => radius * Math.cos(angleSlice * i - Math.PI / 2) * (playerStats[d] / maxValue))
             .attr('cy', (d, i) => radius * Math.sin(angleSlice * i - Math.PI / 2) * (playerStats[d] / maxValue))
             .attr('r', 3)
-            .style('fill', 'white');
+            .style('fill', 'black');
     
     }, [playerStats]);    
     
