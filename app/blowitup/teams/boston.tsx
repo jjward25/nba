@@ -46,7 +46,7 @@ export default function Bos() {
             <Accordion title="Jaylen Brown for... ">
               <div className='flex flex-col md:flex-row'>
                 <div className='flex flex-col'>
-                  <p className='mb-3 mt-3 md:pr-2 md:pb-2'><strong>OKC's Big Men.</strong>  {`For Boston, Chet and J.Williams provide stability at center (knock on wood) and kickstart the obvious post-title two-timelines approach. `}<em>{`Al Horford won't last forever.`}</em></p>
+                  <p className='mb-3 mt-3 md:pr-2 md:pb-2'><strong>{`OKC's Big Men. `}</strong>  {`For Boston, Chet and J.Williams provide stability at center (knock on wood) and kickstart the obvious post-title two-timelines approach. `}<em>{`Al Horford won't last forever.`}</em></p>
                   <p className='mb-3 md:pr-2 md:pb-2'>{`Boston also gets notable white person Josh Giddey to run the bench unit with J.Williams as Derek White supports Tatum in the starting lineup. Stingy Boston might try and get something for the draft too.`}</p>
                   <p className='mb-3 md:pr-2 md:pb-2'>{`That's because OKC gets another top-tier closer to pair with Shai, and another Finals vet in Kristaps. Free agent bigs include RFA Obi Toppin, UFA Kyle Anderson, UFA Bol Bol, UFA Nic Claxton, or finding another big by trading more assets for someone like Wendell Carter or Vucevic.`}</p>
                 </div>
