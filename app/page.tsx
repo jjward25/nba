@@ -5,7 +5,7 @@ import Orl from './blowitup/teams/orlando';
 import Bkn from './blowitup/teams/brooklyn';
 import Chl from './blowitup/teams/charlotte';
 import Chi from './blowitup/teams/chicago';
-import Cle from './blowitup/teams/cleveland';
+import Cle from './blowitup/teams/cleveland'; 
 
 export default function Home() {
   return ( 
