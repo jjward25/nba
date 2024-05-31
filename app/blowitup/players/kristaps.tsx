@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import Papa from 'papaparse';
 
-const DonovanMitchell: React.FC = () => {
-    const [playerName, setPlayerName] = useState<string>('Donovan Mitchell');
+const Player: React.FC = () => {
+    const [playerName, setPlayerName] = useState<string>('Kristaps Porzingis');
     const [playerStats, setPlayerStats] = useState<{ [key: string]: number }>({});
     const svgRef = useRef<SVGSVGElement | null>(null);
 
@@ -99,7 +99,7 @@ const DonovanMitchell: React.FC = () => {
         radarArea.append('path')
             .attr('class', 'radarAreaPath')
             .attr('d', radarLine(categories.map((key) => playerStats[key])))
-            .style('fill', 'brown')
+            .style('fill', 'green')
             .style('fill-opacity', 0.5);
     
         const radarPoint = svg.append('g')
@@ -121,7 +121,7 @@ const DonovanMitchell: React.FC = () => {
     };
 
     return (
-        <div className='flex flex-col rounded-lg mt-2 p-2 mx-0 border-2 border-amber-950 max-w-[250px]'>
+        <div className='flex flex-col ml-0 rounded-lg mt-2 p-2 mx-0 border-2 border-green-800 max-w-[250px]'>
             <input
                 type="text"
                 placeholder="Enter player name"
@@ -134,7 +134,7 @@ const DonovanMitchell: React.FC = () => {
     );
 };
 
-export default DonovanMitchell;
+export default Player;
 
 function roundToTwoDecimals(num: number) {
     return Math.round((num + Number.EPSILON) * 100) / 100;}

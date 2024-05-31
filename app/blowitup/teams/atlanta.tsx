@@ -43,19 +43,23 @@ export default function Atl() {
             <p className='px-2 pb-4 leading-5'><em>{`We tried to find a good place for Trae and let the Hawks re-tool for a 5-8 seed; not bad in a league where home court doesn't matter. It is the East though...`}</em></p>
             <Accordion title="Trae Young for... ">
               <div className='flex flex-col md:flex-row'>
-                <p className='mb-3 mt-3'><strong>Donovan Mitchell.</strong>  {`Mitchell is expected to leave outright or sign an extension and be traded, and Kyrie and Luka have helped set the two-guard precedent for both teams.  Plus, the trade machine says both teams lose, which feels right.`}</p>
+                <p className='mb-3 mt-3 md:pr-2 md:pb-2'><strong>Donovan Mitchell.</strong>  {`Mitchell is expected to leave outright or sign an extension and be traded, and Kyrie and Luka have helped set the two-guard precedent for both teams.  Plus, the trade machine says both teams lose, which feels right.`}</p>
                 <div className='mt-0 mb-0 h-auto w-auto border-2 border-neutral-100'/>
                 <img src='/trades/hawks.png' alt='HawksTrade' className="w-2/3 md:w-1/2 mx-auto h-full object-cover border-1 border-white my-3 md:my-0"/>
               </div>
               <div className='m-0 h-auto w-full border-2 border-neutral-100'/>
               <div className='flex flex-wrap mt-4'>
-                <div className='flex flex-col space-x-3 mb-3'>
-                  <em>Atlanta giving up (by player percentile rank for 2023-4):</em> 
-                  <TraeYoung/>
+                <div className='flex flex-col space-x-3 md:space-x-0 mb-3 mx-auto md:ml-0 md:mr-3'>
+                  <em className='md:max-w-[300px]'>Atlanta receives:</em> 
+                  <div className='flex flex-wrap justify-center md:space-x-3'>
+                    <DonovanMitchell/>
+                  </div>
                 </div>
-                <div className='flex flex-col space-x-3 mb-3'>
-                  <em>Cleveland giving up (by player percentile rank for 2023-4):</em>
-                  <DonovanMitchell/>
+                <div className='flex flex-col space-x-3 md:space-x-0 mb-3 mx-auto md:ml-0 md:mr-3'>
+                  <em className='md:max-w-[300px]'>Cleveland receives:</em>
+                  <div className='flex flex-wrap justify-center md:space-x-3'>
+                    <TraeYoung/>
+                  </div>
                 </div>
               </div>
             </Accordion>

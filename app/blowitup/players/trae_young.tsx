@@ -112,7 +112,7 @@ const TraeYoung: React.FC = () => {
             .attr('cx', (d, i) => radius * Math.cos(angleSlice * i - Math.PI / 2) * (playerStats[d] / maxValue))
             .attr('cy', (d, i) => radius * Math.sin(angleSlice * i - Math.PI / 2) * (playerStats[d] / maxValue))
             .attr('r', 3)
-            .style('fill', 'black');
+            .style('fill', 'white');
     
     }, [playerStats]);    
     
