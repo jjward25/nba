@@ -53,13 +53,13 @@ export default function Orl() {
               </div>
               <div className='m-0 h-auto w-full border-2 border-neutral-100'/>
               <div className='flex flex-wrap mt-4'>
-                <div className='flex flex-col space-x-3 md:space-x-0 mb-3 mx-auto md:ml-0 md:mr-3'>
+              <div className='flex flex-col mb-3 mx-auto md:ml-0 md:mr-3'>
                   <em className='md:max-w-[300px]'>Orlando receives:</em> 
                   <div className='flex flex-wrap justify-center md:space-x-3'>
                     <JaylenBrown/>
                   </div>
                 </div>
-                <div className='flex flex-col space-x-3 md:space-x-0 mb-3 mx-auto md:ml-0 md:mr-3'>
+                <div className='flex flex-col mb-3 mx-auto md:ml-0 md:mr-3'>
                   <em className='md:max-w-[300px]'>Boston receives:</em>
                   <div className='flex flex-wrap justify-center  md:space-x-3'>
                     <Franz/>
