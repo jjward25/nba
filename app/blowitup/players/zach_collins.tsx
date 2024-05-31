@@ -99,7 +99,7 @@ const ZachCollins: React.FC = () => {
         radarArea.append('path')
             .attr('class', 'radarAreaPath')
             .attr('d', radarLine(categories.map((key) => playerStats[key])))
-            .style('fill', 'lightgrey')
+            .style('fill', 'gray')
             .style('fill-opacity', 0.5);
     
         const radarPoint = svg.append('g')
