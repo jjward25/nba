@@ -14,7 +14,7 @@ export default function Home() {
     <main className="font-inter flex min-h-screen flex-col mx-auto items-center justify-start py-12 px-6 md:p-10  w-auto max-w-[900px] bg-neutral-100">
       
       <div className="block rounded-lg bg-gray-300 shadow-secondary-1 dark:bg-surface-dark mb-4 bg-gradient-to-br from-neutral-600 via-black to-neutral-600 opacity-85">
-        <img src='/trades/kat.png' alt='TitleImg' className="rounded-t-lg opacity-80 mx-auto h-full object-cover border-1 border-white md:my-0"/>
+        <img src='/trades/kat.png' alt='TitleImg' className="rounded-t-lg opacity-80 mx-auto w-full object-cover border-1 border-white md:my-0"/>
         <div className="p-6 text-surface dark:text-white">
           <h1 className="text-4xl text-center mb-4 tracking-tighter font-semibold text-white">
             The Annual NBA <strong className={`bg-clip-text text-transparent w-screen animated-background h-screen animate-pulse bg-gradient-to-r from-amber-500 via-red-500 to-indigo-500`}>Blow-it-Up </strong> Post
