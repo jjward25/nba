@@ -51,7 +51,7 @@ export default function Atl() {
           </p>
 
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
-            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-red-600 via-neutral-500 to-red-600'>Atlanta Hawks</h3>
+            <h3 className='px-2 md:px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-red-600 via-neutral-500 to-red-600'>Atlanta Hawks</h3>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`The Hawks had a big year for anyone who thinks the play-in tournament is dumb.  They finished with the 10th seed and lost their single elimination game, and reports of toxic chemistry are persistent.`}</p>
             <p className='px-2 md:px-4 pb-4 leading-5 text-[0.8rem] font-semibold'>{`We tried to find a good place for Trae and let the Hawks re-tool for a solid 5-8 seed run in the weak East; not bad in a league where home court doesn't matter.`}</p>
             <Accordion title="Trae Young for... ">

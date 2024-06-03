@@ -49,7 +49,7 @@ export default function Gsw() {
             <NBAIcons.GSW/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
-            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-800 via-yellow-500 to-blue-950'>Golden State Warriors</h3>
+            <h3 className='px-2 md:px-4  text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-800 via-yellow-500 to-blue-950'>Golden State Warriors</h3>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Woof.  A day late and a dollar short on blowing it up, Golden State has no choice but to trade Draymond if they want to get any value for their pieces. And maybe trade CP3's expiring after.`}</p>
             <Accordion title="Draymond Green for... ">
               <div className='flex flex-col md:flex-row'>

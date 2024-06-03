@@ -36,7 +36,7 @@ export default function Hou() {
         <div className="mb-4 flex flex-col justify-center md:flex-row">
         <div className='w-20 h-20 relative mx-auto md:h-0 md:w-0 mb-6 md:mb-0'>
             <div className="absolute inset-0 
-                        bg-gradient-to-tr from-red-800 via-white to-red-950 animate-spin rounded-full 
+                        bg-gradient-to-tr from-red-800 to-white  animate-spin rounded-full 
                         z-10 min-h-full">
             </div>
             <div className="absolute inset-0 flex 
@@ -49,7 +49,7 @@ export default function Hou() {
             <NBAIcons.HOU/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
-            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-red-800 via-white to-red-950'>Houston Rockets</h3>
+            <h3 className='px-2 md:px-4  text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-red-800 via-white to-red-950'>Houston Rockets</h3>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Houston is a weirdly old team with no chance at competing in a tough west.  They have young talent in Jalen Green and Sengun but with Jeff Green, Dillon Brooks and Fred VanVleet, they don't need the Draymonds or other vets and aren't close enough to take a real swing.`}</p>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`But for this article they're gonna try, which means Fred VanVleet's $40m is someone else's problem now.`}</p>
             <Accordion title="Dillon Brooks for... ">

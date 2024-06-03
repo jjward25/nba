@@ -38,7 +38,7 @@ export default function Cle() {
         <div className="mb-4 flex flex-col justify-center md:flex-row">
         <div className='w-20 h-20 relative mx-auto md:h-0 md:w-0 mb-6 md:mb-0'>
             <div className="absolute inset-0 
-                        bg-gradient-to-r from-red-800 via-neutral-300 to-amber-800 animate-spin rounded-full 
+                        bg-gradient-to-r from-red-800 to-neutral-300 animate-spin rounded-full 
                         z-10 min-h-full">
             </div>
             <div className="absolute inset-0 flex 
@@ -51,9 +51,9 @@ export default function Cle() {
             <NBAIcons.CLE/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
-            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-amber-800 via-amber-600 to-orange-950'>Cleveland Caveliers</h3>
+            <h3 className='px-2 md:px-4  text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-amber-800 via-amber-600 to-orange-950'>Cleveland Caveliers</h3>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Bad vibes ruined any excitement around what `}<em>should</em>{` be an up-and-coming team in a weak Eastern conference. All signs seem to be that Mitchell wants out, so instead of trying to polish off a contender we're shipping him out.`}</p>
-            <Accordion title="Donovan Mitchell sign-and-trade for... ">
+            <Accordion title="Donovan Mitchell for... ">
               <div className='flex flex-col md:flex-row'>
                 <div className='flex flex-col'>
                   <p className='mb-3 mt-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'><strong className='bg-clip-text text-transparent bg-gradient-to-r from-amber-800 via-amber-600 to-orange-950'>{`Domantas Sabonis, `}</strong>  {`who could be right at home next to 37% 3-point shooter Mobley, relieving Garland by moving into a Jokic-esque playmaking role.`}</p>

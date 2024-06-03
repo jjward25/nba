@@ -49,7 +49,7 @@ export default function Cha() {
             <NBAIcons.CHA/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
-            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-teal-800 via-purple-500 to-teal-800'>Charlotte Hornets</h3>
+            <h3 className='px-2 md:px-4  text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-teal-800 via-purple-500 to-teal-800'>Charlotte Hornets</h3>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Truly a bleak situation. The Hornets own their own picks for the most part but still...`}</p>
             <Accordion title="Lamelo for... ">
               <div className='flex flex-col md:flex-row'>

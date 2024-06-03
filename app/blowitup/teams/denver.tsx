@@ -36,7 +36,7 @@ export default function Den() {
         <div className="mb-4 flex flex-col justify-center md:flex-row">
         <div className='w-20 h-20 relative mx-auto md:h-0 md:w-0 mb-6 md:mb-0'>
             <div className="absolute inset-0 
-                        bg-gradient-to-tr from-sky-800 via-amber-600 to-sky-950 animate-spin rounded-full 
+                        bg-gradient-to-tr from-sky-800 to-amber-600 animate-spin rounded-full 
                         z-10 min-h-full">
             </div>
             <div className="absolute inset-0 flex 
@@ -49,7 +49,7 @@ export default function Den() {
             <NBAIcons.DEN/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
-            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-sky-800 via-amber-800 to-sky-950'>Denver Nuggets</h3>
+            <h3 className='px-2 md:px-4  text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-sky-800 via-amber-800 to-sky-950'>Denver Nuggets</h3>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Denver couldn't catch a break this postseason and failed defend their title against Minnesota's custom-built defense - and now it's time to blow it up.`}</p>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`We tried really hard to find good Jamal Murray trades since he's had some injury troubles, can leave some things desired with playmaking. and looked a bit timid at times this postseason for a Championship-level #2. Unfortunately, he's a bit below that Trae et al $40m tier, and even trades for Dejounte Murray, Donovan Mitchell, Ingram and others were tough to make work.`}</p>
             <Accordion title="Aaron Gordon for... ">

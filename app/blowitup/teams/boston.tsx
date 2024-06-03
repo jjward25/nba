@@ -39,7 +39,7 @@ export default function Bos() {
         <div className="mb-4 flex flex-col justify-center md:flex-row">
         <div className='w-20 h-20 relative mx-auto md:h-0 md:w-0 mb-6 md:mb-0'>
             <div className="absolute inset-0 
-                        bg-gradient-to-r from-green-500 via-black to-green-500 animate-spin rounded-full 
+                        bg-gradient-to-r from-green-500 to-black animate-spin rounded-full 
                         z-10 min-h-full">
             </div>
             <div className="absolute inset-0 flex 
@@ -52,7 +52,7 @@ export default function Bos() {
             <NBAIcons.BOS/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
-            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-green-700 via-neutral-600 to-green-700'>Boston Celtics</h3>
+            <h3 className='px-2 md:px-4  text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-green-700 via-neutral-600 to-green-700'>Boston Celtics</h3>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`The Celtics might win the finals, but it's time to Blow it Up. Jaylen Brown's trade value may be at an all-time high and we're shipping him out.`}</p>
             <Accordion title="Jaylen Brown for... ">
               <div className='flex flex-col md:flex-row'>

@@ -11,6 +11,9 @@ import Det from './blowitup/teams/detroit';
 import Gsw from './blowitup/teams/goldenstate';
 import Hou from './blowitup/teams/houston';
 import Ind from './blowitup/teams/indiana';
+import Lac from './blowitup/teams/lac';
+import Lal from './blowitup/teams/lal';
+import Mem from './blowitup/teams/memphis';
 //import { Danfo } from "next/font/google";
 
 
@@ -61,6 +64,12 @@ export default function Home() {
         <Hou/>
         <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
         <Ind/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Lac/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Lal/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Mem/>
         <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
       </div>
 

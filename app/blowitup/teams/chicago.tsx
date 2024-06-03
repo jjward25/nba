@@ -49,7 +49,7 @@ export default function Chi() {
             <NBAIcons.CHI/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
-            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-red-800 to-black'>Chicago Bulls</h3>
+            <h3 className='px-2 md:px-4  text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-red-800 to-black'>Chicago Bulls</h3>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Chicago extends this run of bottom-dwellers but at least they have some assets. Of course even those are overpaid though.`}</p>
             <Accordion title="Zach Lavine for... ">
               <div className='flex flex-col md:flex-row'>

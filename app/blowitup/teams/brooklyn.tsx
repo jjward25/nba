@@ -49,7 +49,7 @@ export default function Bkn() {
             <NBAIcons.BKN/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
-            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-neutral-800 via-neutral-500 to-neutral-800'>Brooklyn Nets</h3>
+            <h3 className='px-2 md:px-4  text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-neutral-800 via-neutral-500 to-neutral-800'>Brooklyn Nets</h3>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Brooklyn has very few options, so we're going to try and maximize draft returns. We auction Mikal & Co. between OKC, San Antonio, Utah and New Orleans.`}</p>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Utah bows out quick, seeing no benefit in going from 12th to 12th. San Antonio hangs up when we jokingly ask for Wemby but calls back later about Ben Simmons.  Finally we land on:`}</p>
             <Accordion title="Mikal & Co. for... ">

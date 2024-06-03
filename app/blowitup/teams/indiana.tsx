@@ -38,7 +38,7 @@ export default function Ind() {
         <div className="mb-4 flex flex-col justify-center md:flex-row">
         <div className='w-20 h-20 relative mx-auto md:h-0 md:w-0 mb-6 md:mb-0'>
             <div className="absolute inset-0 
-                        bg-gradient-to-tr from-red-800 via-white to-red-950 animate-spin rounded-full 
+                        bg-gradient-to-tr from-amber-600 to-blue-800 animate-spin rounded-full 
                         z-10 min-h-full">
             </div>
             <div className="absolute inset-0 flex 
@@ -51,7 +51,7 @@ export default function Ind() {
             <NBAIcons.IND/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
-            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-800 via-amber-600 to-blue-950'>Indiana Pacers</h3>
+            <h3 className='px-2 md:px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-800 via-amber-600 to-blue-950'>Indiana Pacers</h3>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Priority #1 for Indiana is re-signing Siakam. After that, how does Indiana make sure they can get past a health East? Could Myles Turner and a pick get us Lauri Markkanen?`}</p>
             <Accordion title="Myles Turner for... ">
               <div className='flex flex-col md:flex-row'>
