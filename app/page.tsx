@@ -14,6 +14,21 @@ import Ind from './blowitup/teams/indiana';
 import Lac from './blowitup/teams/lac';
 import Lal from './blowitup/teams/lal';
 import Mem from './blowitup/teams/memphis';
+import Mia from './blowitup/teams/miami';
+import Mil from './blowitup/teams/milwaukee';
+import Min from './blowitup/teams/minnesota';
+import Nop from './blowitup/teams/neworleans';
+import Nyk from './blowitup/teams/newyork';
+import Okc from './blowitup/teams/oklahoma';
+import Orl from './blowitup/teams/orlando';
+import Phi from './blowitup/teams/philadelphia';
+import Phx from './blowitup/teams/phoenix';
+import Por from './blowitup/teams/portland';
+import Sac from './blowitup/teams/sacramento';
+import Sas from './blowitup/teams/sanantonio';
+import Tor from './blowitup/teams/toronto';
+import Uta from './blowitup/teams/utah';
+import Was from './blowitup/teams/washington';
 //import { Danfo } from "next/font/google";
 
 
@@ -70,6 +85,36 @@ export default function Home() {
         <Lal/>
         <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
         <Mem/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Mia/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Mil/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Min/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Nop/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Nyk/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Okc/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Orl/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Phi/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Phx/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Por/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Sac/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Sas/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Tor/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Uta/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Was/>
         <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
       </div>
 
