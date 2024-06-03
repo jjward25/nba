@@ -1,8 +1,10 @@
 "use client"
 import * as NBAIcons from 'react-nba-logos'; 
 import { useState } from 'react';
-import Lebron from '../players/lebron';
-import DillonBrooks from '../players/dillon_brooks';
+import Lauri from '../players/lauri';
+import CollinSexton from '../players/collin_sexton';
+import MylesTurner from '../players/myles_turner';
+import BenedictMathurin from '../players/benedict_mathurin';
 
 function Accordion({title,children}: {title: string, children: any }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,12 +52,12 @@ export default function Ind() {
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
             <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-800 via-amber-600 to-blue-950'>Indiana Pacers</h3>
-            <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`.`}</p>
-            <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`But for this article they're gonna try, which means Fred VanVleet's $40m is someone else's problem now.`}</p>
-            <Accordion title="Dillon Brooks for... ">
+            <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Priority #1 for Indiana is re-signing Siakam. After that, how does Indiana make sure they can get past a health East? Could Myles Turner and a pick get us Lauri Markkanen?`}</p>
+            <Accordion title="Myles Turner for... ">
               <div className='flex flex-col md:flex-row'>
                 <div className='flex flex-col'>
-                  <p className='mb-3 mt-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'><strong className='bg-clip-text text-transparent bg-gradient-to-r from-red-800 via-red-400 to-red-800'>{`LeBron James.`}</strong>  {`Actually. Houston makes a push to be relevant (play-in) and drafts Bronny in the second round, then trades Vanvleet and Cam Whitmore for LeBron.`}</p>
+                  <p className='mb-3 mt-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'><strong className='bg-clip-text text-transparent bg-gradient-to-r from-blue-800 via-amber-600 to-blue-950'>{`Lauri Markkanen and Collin Sexton.`}</strong>  {`Indiana completes their decade-long disrespect and trades Turner right after making the Conference Finals.`}</p>
+                  <p className='mb-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'>{`Shipping promising guard Bennedict Mathurin along with Turner gets Indiana a solid #2 to start alongside Haliburton and All-Star Lauri Markanen.  Indiana has the draft picks to sweeten the deal as needed.`}</p>
                 </div>
                 <div className='mt-0 mb-0 h-auto w-auto md:border-2 border-neutral-100'/>
                 <img src='/trades/spurs.png' alt='Celtics' className="w-2/3 md:w-1/2 mx-auto h-0 md:h-full object-cover border-1 border-white md:my-0"/>
@@ -63,15 +65,17 @@ export default function Ind() {
               <div className='m-0 h-auto w-full border-2 border-neutral-100'/>
               <div className='flex flex-wrap mt-4'>
                 <div className='flex flex-col mb-3 mx-auto md:ml-3 md:mr-3'>
-                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Houston receives:</em> 
+                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Indiana receives:</em> 
                   <div className='flex flex-wrap justify-center md:justify-start '>
-                    <Lebron/>
+                    <Lauri/>
+                    <CollinSexton/>
                   </div>
                 </div>
                 <div className='flex flex-col mb-3 mx-auto md:ml-3 md:mr-3'>
-                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Los Angeles receives:</em>
+                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Utah receives:</em>
                   <div className='flex flex-wrap justify-center md:space-x-3'>
-                    <DillonBrooks/>
+                    <MylesTurner/>
+                    <BenedictMathurin/>
                   </div>
                 </div>
               </div>
