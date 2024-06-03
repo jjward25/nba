@@ -39,7 +39,7 @@ export default function Bos() {
         <div className="mb-4 flex flex-col justify-center md:flex-row">
         <div className='w-20 h-20 relative mx-auto md:h-0 md:w-0 mb-6 md:mb-0'>
             <div className="absolute inset-0 
-                        bg-gradient-to-r from-green-800 to-black animate-spin rounded-full 
+                        bg-gradient-to-r from-green-500 via-black to-green-500 animate-spin rounded-full 
                         z-10 min-h-full">
             </div>
             <div className="absolute inset-0 flex 
@@ -48,18 +48,18 @@ export default function Bos() {
                   <NBAIcons.BOS/>
             </div>
           </div>
-          <p className="md:hover:scale-105 md:mr-3 m-0 w-0 h-0 md:h-auto md:p-0 md:w-auto flex justify-center items-center rounded-full md:rounded-lg text-sm border-neutral-200 text-neutral-100 no-underline bg-gradient-to-r from-green-500 to-black">
+          <p className="md:hover:scale-105 md:mr-3 m-0 w-0 h-0 md:h-auto md:p-0 md:w-auto flex justify-center items-center rounded-full md:rounded-lg text-sm border-neutral-200 text-neutral-100 no-underline bg-gradient-to-r from-green-500 via-black to-green-500">
             <NBAIcons.BOS/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
-            <h3 className='text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-green-700 via-neutral-600 to-green-700'>Boston Celtics</h3>
+            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-green-700 via-neutral-600 to-green-700'>Boston Celtics</h3>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`The Celtics might win the finals, but it's time to Blow it Up. Jaylen Brown's trade value may be at an all-time high and we're shipping him out.`}</p>
             <Accordion title="Jaylen Brown for... ">
               <div className='flex flex-col md:flex-row'>
                 <div className='flex flex-col'>
-                  <p className='mb-3 mt-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'><strong className='bg-clip-text text-transparent bg-gradient-to-r from-orange-600 via-neutral-600 to-orange-600'>{`OKC's Big Men. `}</strong>  {`For Boston, Chet and J.Williams provide stability at center (knock on wood) and kickstart the obvious post-title two-timelines approach. `}<em>{`Al Horford won't last forever.`}</em></p>
+                  <p className='mb-3 mt-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'><strong className='bg-clip-text text-transparent bg-gradient-to-r from-green-800 via-green-600 to-green-800'>{`OKC's Big Men. `}</strong>  {`For Boston, Chet and J.Williams provide stability at center (knock on wood) and kickstart the obvious post-title two-timelines approach. `}<em>{`Al Horford won't last forever.`}</em></p>
                   <p className='mb-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'>{`Boston also gets notable white person Josh Giddey to run the bench unit with J.Williams as Derek White supports Tatum in the starting lineup. Stingy Boston might try and get something for the draft too.`}</p>
-                  <p className='mb-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'>{`That's because OKC gets another top-tier closer to pair with Shai, and another Finals vet in Kristaps. Free agent bigs include RFA Obi Toppin, UFA Kyle Anderson, UFA Bol Bol, UFA Nic Claxton, or finding another big by trading more assets for someone like Wendell Carter or Vucevic.`}</p>
+                  <p className='mb-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'>{`That's because OKC gets another top-tier closer to pair with Shai, and another Finals vet in Kristaps. Free agent bigs include RFA Obi Toppin, UFA Kyle Anderson, UFA Bol Bol, UFA Nic Claxton, or trading more assets for someone like Wendell Carter or Vucevic (to replace Jalen's minutes).`}</p>
                 </div>
                 <div className='mt-0 mb-0 h-auto w-auto md:border-2 border-neutral-100'/>
                 <img src='/trades/celtics.png' alt='Celtics' className="w-2/3 md:w-1/2 mx-auto h-0 md:h-full object-cover border-1 border-white md:my-0"/>

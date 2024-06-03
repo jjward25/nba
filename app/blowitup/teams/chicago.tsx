@@ -28,7 +28,7 @@ function Accordion({title,children}: {title: string, children: any }) {
   );
 }
 
-export default function Bos() {
+export default function Chi() {
 
   return (
     <section className='w-full'>
@@ -49,12 +49,12 @@ export default function Bos() {
             <NBAIcons.CHI/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
-            <h3 className='text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-red-800 to-black'>Chicago Bulls</h3>
+            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-red-800 to-black'>Chicago Bulls</h3>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Chicago extends this run of bottom-dwellers but at least they have some assets. Of course even those are overpaid though.`}</p>
             <Accordion title="Zach Lavine for... ">
               <div className='flex flex-col md:flex-row'>
                 <div className='flex flex-col'>
-                  <p className='mb-3 mt-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'><strong className='bg-clip-text text-transparent bg-gradient-to-r from-red-800 to-neutral-800'>{`LeBron James. `}</strong>  {`Lavine's salary is too high to find many matches, but maybe Klay Thompson and a First, or Ben Simmons and two firsts? Reinsdorf doesn't care.`}</p>
+                  <p className='mb-3 mt-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'><strong className='bg-clip-text text-transparent bg-gradient-to-r from-red-800 to-neutral-800'>{`LeBron James. `}</strong>  {`Just kidding, but Lavine's salary is too high to find many matches, but maybe Klay Thompson and a First, or Ben Simmons and two firsts? Reinsdorf doesn't care and neither do we.`}</p>
                 </div>
                 <div className='mt-0 mb-0 h-auto w-auto md:border-2 border-neutral-100'/>
                 <img src='/trades/bulls.png' alt='Celtics' className="w-2/3 md:w-1/2 mx-auto h-0 md:h-full object-cover border-1 border-white md:my-0"/>

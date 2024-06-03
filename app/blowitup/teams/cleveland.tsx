@@ -1,8 +1,10 @@
 "use client"
 import * as NBAIcons from 'react-nba-logos'; 
 import { useState } from 'react';
-import ZachCollins from '../players/zach_collins';
-import Lamelo from '../players/lamelo';
+import Domantis from '../players/domantas';
+import Harrison from '../players/harrison_barnes';
+import DonovanMitchell from '../players/donovan_mitchell';
+import JarrettAllen from '../players/jarrett_allen';
 
 function Accordion({title,children}: {title: string, children: any }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +30,7 @@ function Accordion({title,children}: {title: string, children: any }) {
   );
 }
 
-export default function Bos() {
+export default function Cle() {
 
   return (
     <section className='w-full'>
@@ -45,33 +47,35 @@ export default function Bos() {
                   <NBAIcons.CLE/>
             </div>
           </div>
-          <p className="md:hover:scale-105 md:mr-3 m-0 w-0 h-0 md:h-auto md:p-0 md:w-auto flex justify-center items-center rounded-full md:rounded-lg text-sm border-neutral-200 text-neutral-100 no-underline bg-gradient-to-r from-red-800 via-neutral-300 to-amber-800">
+          <p className="md:hover:scale-105 md:mr-3 m-0 w-0 h-0 md:h-auto md:p-0 md:w-auto flex justify-center items-center rounded-full md:rounded-lg text-sm border-neutral-200 text-neutral-100 no-underline bg-gradient-to-r from-red-800 via-amber-200 to-amber-800">
             <NBAIcons.CLE/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
-            <h3 className='text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-amber-800 via-neutral-600 to-orange-950'>Cleveland Caveliers</h3>
-            <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Bad vibes ruined what should be an up-and-coming team in a weak Eastern conference. All signs seem to be that Mitchell wants out, so out he goes.`}</p>
+            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-amber-800 via-amber-600 to-orange-950'>Cleveland Caveliers</h3>
+            <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Bad vibes ruined any excitement around what `}<em>should</em>{` be an up-and-coming team in a weak Eastern conference. All signs seem to be that Mitchell wants out, so instead of trying to polish off a contender we're shipping him out.`}</p>
             <Accordion title="Donovan Mitchell sign-and-trade for... ">
               <div className='flex flex-col md:flex-row'>
                 <div className='flex flex-col'>
-                  <p className='mb-3 mt-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'><strong className='bg-clip-text text-transparent bg-gradient-to-r from-amber-800 via-neutral-600 to-orange-950'>{`Everything Popovich will give us. `}</strong>  {`Ben Simmons is available but San Antonio is still the team with the most draft capital that's most likely to salivate over LaMelo coming on the trade block.`}</p>
-                  <p className='mb-3 mt-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'>{`New Orleans should raise an eyebrow but Ingram makes 3x as much as Ball.  The Hornets could get their own pick back, or bet against the Bulls or Hawks - San Antonio has firsts from all of them.`}</p>
+                  <p className='mb-3 mt-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'><strong className='bg-clip-text text-transparent bg-gradient-to-r from-amber-800 via-amber-600 to-orange-950'>{`Domantas Sabonis, `}</strong>  {`who could be right at home next to 37% 3-point shooter Mobley, relieving Garland by moving into a Jokic-esque playmaking role.`}</p>
+                  <p className='mb-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'>{`We don't know if Garland can step up his scoring enough to replace Mitchell, but we really like the Sabonis/Mobley pairing and how having Sabonis could give Garland more minutes running solo with bench units.`}</p>
                 </div>
                 <div className='mt-0 mb-0 h-auto w-auto md:border-2 border-neutral-100'/>
-                <img src='/trades/spurs.png' alt='Celtics' className="w-2/3 md:w-1/2 mx-auto h-0 md:h-full object-cover border-1 border-white md:my-0"/>
+                <img src='/trades/cavs.png' alt='Celtics' className="w-2/3 md:w-1/2 mx-auto h-0 md:h-full object-cover border-1 border-white md:my-0"/>
               </div>
               <div className='m-0 h-auto w-full border-2 border-neutral-100'/>
               <div className='flex flex-wrap mt-4'>
                 <div className='flex flex-col mb-3 mx-auto md:ml-3 md:mr-3'>
-                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Charlotte receives:</em> 
+                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Cleveland receives:</em> 
                   <div className='flex flex-wrap justify-center md:justify-start '>
-                    <ZachCollins/>
+                    <Domantis/>
+                    <Harrison/>
                   </div>
                 </div>
                 <div className='flex flex-col mb-3 mx-auto md:ml-3 md:mr-3'>
-                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>San Antonio receives:</em>
+                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Sacramento receives:</em>
                   <div className='flex flex-wrap justify-center md:space-x-3'>
-                    <Lamelo/>
+                    <DonovanMitchell/>
+                    <JarrettAllen/>
                   </div>
                 </div>
               </div>

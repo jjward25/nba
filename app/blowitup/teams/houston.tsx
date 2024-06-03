@@ -1,8 +1,8 @@
 "use client"
 import * as NBAIcons from 'react-nba-logos'; 
 import { useState } from 'react';
-import ZachCollins from '../players/zach_collins';
-import Lamelo from '../players/lamelo';
+import Lebron from '../players/lebron';
+import DillonBrooks from '../players/dillon_brooks';
 
 function Accordion({title,children}: {title: string, children: any }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +28,7 @@ function Accordion({title,children}: {title: string, children: any }) {
   );
 }
 
-export default function Cha() {
+export default function Hou() {
 
   return (
     <section className='w-full'>
@@ -36,26 +36,26 @@ export default function Cha() {
         <div className="mb-4 flex flex-col justify-center md:flex-row">
         <div className='w-20 h-20 relative mx-auto md:h-0 md:w-0 mb-6 md:mb-0'>
             <div className="absolute inset-0 
-                        bg-gradient-to-r from-teal-800 to-purple-800 animate-spin rounded-full 
+                        bg-gradient-to-tr from-red-800 via-white to-red-950 animate-spin rounded-full 
                         z-10 min-h-full">
             </div>
             <div className="absolute inset-0 flex 
                         items-center justify-center
                         text-white z-20 md:w-0 md:h-0">
-                  <NBAIcons.CHA/>
+                  <NBAIcons.HOU/>
             </div>
           </div>
-          <p className="md:hover:scale-105 md:mr-3 m-0 w-0 h-0 md:h-auto md:p-0 md:w-auto flex justify-center items-center rounded-full md:rounded-lg text-sm border-neutral-200 text-neutral-100 no-underline bg-gradient-to-r from-teal-800 to-purple-800">
-            <NBAIcons.CHA/>
+          <p className="md:hover:scale-105 md:mr-3 m-0 w-0 h-0 md:h-auto md:p-0 md:w-auto flex justify-center items-center rounded-full md:rounded-lg text-sm border-neutral-200 text-neutral-100 no-underline bg-gradient-to-r from-red-800 via-white to-red-950">
+            <NBAIcons.HOU/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
-            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-teal-800 via-purple-500 to-teal-800'>Charlotte Hornets</h3>
-            <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Truly a bleak situation. The Hornets own their own picks for the most part but still...`}</p>
-            <Accordion title="Lamelo for... ">
+            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-red-800 via-white to-red-950'>Houston Rockets</h3>
+            <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Houston is a weirdly old team with no chance at competing in a tough west.  They have young talent in Jalen Green and Sengun but with Jeff Green, Dillon Brooks and Fred VanVleet, they don't need the Draymonds or other vets and aren't close enough to take a real swing.`}</p>
+            <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`But for this article they're gonna try, which means Fred VanVleet's $40m is someone else's problem now.`}</p>
+            <Accordion title="Dillon Brooks for... ">
               <div className='flex flex-col md:flex-row'>
                 <div className='flex flex-col'>
-                  <p className='mb-3 mt-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'><strong className='bg-clip-text text-transparent bg-gradient-to-r from-teal-800 via-purple-500 to-teal-800'>{`Everything (Anything?) Popovich will give us. `}</strong>  {`Ben Simmons is available but San Antonio is still the team with the most draft capital that's most likely to salivate over LaMelo coming on the trade block.`}</p>
-                  <p className='mb-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'>{`The Hornets could get their own pick back, or bet against the Bulls or Hawks - San Antonio has firsts from all of them.  It's not like San Antonio has ever had issues managing injured players.`}</p>
+                  <p className='mb-3 mt-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'><strong className='bg-clip-text text-transparent bg-gradient-to-r from-red-800 via-red-400 to-red-800'>{`LeBron James.`}</strong>  {`Actually. Houston makes a push to be relevant (play-in) and drafts Bronny in the second round, then trades Vanvleet and Cam Whitmore for LeBron.`}</p>
                 </div>
                 <div className='mt-0 mb-0 h-auto w-auto md:border-2 border-neutral-100'/>
                 <img src='/trades/spurs.png' alt='Celtics' className="w-2/3 md:w-1/2 mx-auto h-0 md:h-full object-cover border-1 border-white md:my-0"/>
@@ -63,15 +63,15 @@ export default function Cha() {
               <div className='m-0 h-auto w-full border-2 border-neutral-100'/>
               <div className='flex flex-wrap mt-4'>
                 <div className='flex flex-col mb-3 mx-auto md:ml-3 md:mr-3'>
-                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Charlotte receives:</em> 
+                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Houston receives:</em> 
                   <div className='flex flex-wrap justify-center md:justify-start '>
-                    <ZachCollins/>
+                    <Lebron/>
                   </div>
                 </div>
                 <div className='flex flex-col mb-3 mx-auto md:ml-3 md:mr-3'>
-                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>San Antonio receives:</em>
+                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Los Angeles receives:</em>
                   <div className='flex flex-wrap justify-center md:space-x-3'>
-                    <Lamelo/>
+                    <DillonBrooks/>
                   </div>
                 </div>
               </div>

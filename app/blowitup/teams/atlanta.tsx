@@ -2,7 +2,7 @@
 import * as NBAIcons from 'react-nba-logos'; 
 import { useState } from 'react';
 import TraeYoung from '../players/trae_young';
-import DonovanMitchell from '../players/donovan_mitchell';
+import Dame from '../players/dame';
 
 function Accordion({title,children}: {title: string, children: any }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,7 +37,7 @@ export default function Atl() {
 
           <div className='w-20 h-20 relative mx-auto md:h-0 md:w-0 mb-6 md:mb-0'>
             <div className="absolute inset-0 
-                        bg-gradient-to-r from-red-800 to-black animate-spin rounded-full 
+                        bg-gradient-to-l from-red-800 to-black animate-spin rounded-full 
                         z-10 min-h-full">
             </div>
             <div className="absolute inset-0 flex 
@@ -46,17 +46,20 @@ export default function Atl() {
                   <NBAIcons.ATL/>
             </div>
           </div>
-          <p className="md:hover:scale-105 md:mr-3 m-0 w-0 h-0 md:h-auto md:p-0 md:w-auto flex justify-center items-center rounded-full md:rounded-lg text-sm border-neutral-200 text-neutral-100 no-underline bg-gradient-to-r from-red-500 to-black">
+          <p className="md:hover:scale-105 md:mr-3 m-0 w-0 h-0 md:h-auto md:p-0 md:w-auto flex justify-center items-center rounded-full md:rounded-lg text-sm border-neutral-200 text-neutral-100 no-underline bg-gradient-to-l from-red-500 to-black">
             <NBAIcons.ATL/>
           </p>
 
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
-            <h3 className='text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-red-600 via-neutral-600 to-red-600'>Atlanta Hawks</h3>
-            <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`The Hawks had a big year for anyone who thinks the play-in tournament is dumb.  They finished in the 10th seed and lost their single elimination game, and reports of toxic chemistry are outshadowed only by the 1st-hour assassination in Cleveland.`}</p>
-            <p className='px-2 md:px-4 pb-4 leading-5 text-[0.8rem] font-semibold'>{`We tried to find a good place for Trae and let the Hawks re-tool for a 5-8 seed; not bad in a league where home court doesn't matter. It is the East though...`}</p>
+            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-red-600 via-neutral-500 to-red-600'>Atlanta Hawks</h3>
+            <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`The Hawks had a big year for anyone who thinks the play-in tournament is dumb.  They finished with the 10th seed and lost their single elimination game, and reports of toxic chemistry are persistent.`}</p>
+            <p className='px-2 md:px-4 pb-4 leading-5 text-[0.8rem] font-semibold'>{`We tried to find a good place for Trae and let the Hawks re-tool for a solid 5-8 seed run in the weak East; not bad in a league where home court doesn't matter.`}</p>
             <Accordion title="Trae Young for... ">
               <div className='flex flex-col md:flex-row'>
-                <p className='mb-3 mt-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'><strong className='bg-clip-text text-transparent bg-gradient-to-r from-red-600 via-neutral-600 to-red-600'>Donovan Mitchell.</strong>  {`Mitchell is expected to leave outright or sign an extension and be traded, and Kyrie and Luka have helped set the two-guard precedent for both teams.  Plus, the trade machine says both teams lose, which feels right.`}</p>
+                <div className='flex flex-col'>
+                  <p className='mb-3 mt-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'><strong className='bg-clip-text text-transparent bg-gradient-to-r from-red-600 via-red-400 to-red-600'>Dame.</strong>  {`Two offensive dynamos, two defensive liabilities. Lillard is ok with being a beloved martyr.  And the Bucks get younger with someone who will gladly let Middleton settle into Tony Snell.`}</p>
+                  <p className='mb-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'>{`Trae works straight-up for KAT, Rudy, Ja, Dame, and Donovan, and surely others - so we wouldn't blame you for going another direction. We just want a Giannis-Knicks ECF and a Trae return would surely amp up the Bing Bong crew.`}</p>
+                </div>
                 <div className='mt-0 mb-0 h-auto w-auto md:border-2 border-neutral-100'/>
                 <img src='/trades/hawks.png' alt='HawksTrade' className="w-2/3 md:w-1/2 mx-auto h-0 md:h-full object-cover border-1 border-white md:my-0"/>
               </div>
@@ -65,11 +68,11 @@ export default function Atl() {
                 <div className='flex flex-col mb-3 mx-auto md:ml-3 md:mr-3'>
                   <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Atlanta receives:</em> 
                   <div className='flex flex-wrap justify-center md:space-x-3'>
-                    <DonovanMitchell/>
+                    <Dame/>
                   </div>
                 </div>
                 <div className='flex flex-col mb-3 mx-auto md:ml-0 md:mr-3'>
-                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Cleveland receives:</em>
+                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Milwaukee receives:</em>
                   <div className='flex flex-wrap justify-center md:space-x-3'>
                     <TraeYoung/>
                   </div>

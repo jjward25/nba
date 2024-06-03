@@ -5,13 +5,19 @@ import Bkn from './blowitup/teams/brooklyn';
 import Chl from './blowitup/teams/charlotte';
 import Chi from './blowitup/teams/chicago';
 import Cle from './blowitup/teams/cleveland'; 
+import Dal from './blowitup/teams/dallas';
+import Den from './blowitup/teams/denver';
+import Det from './blowitup/teams/detroit';
+import Gsw from './blowitup/teams/goldenstate';
+import Hou from './blowitup/teams/houston';
+import Ind from './blowitup/teams/indiana';
 //import { Danfo } from "next/font/google";
 
 
 
 export default function Home() {
   return ( 
-    <main className="font-inter flex min-h-screen flex-col mx-auto items-center justify-start py-12 px-6 md:p-10  w-auto max-w-[900px] bg-neutral-100">
+    <main className="font-inter flex min-h-screen flex-col mx-auto items-center justify-start pt-8 pb-12 px-6 md:p-10  w-auto max-w-[900px] bg-neutral-100">
       
       <div className="block rounded-lg bg-gray-300 shadow-secondary-1 dark:bg-surface-dark mb-4 bg-gradient-to-br from-neutral-600 via-black to-neutral-600 opacity-85">
         <img src='/trades/kat.png' alt='TitleImg' className="rounded-t-lg opacity-80 mx-auto w-full object-cover border-1 border-white md:my-0"/>
@@ -43,6 +49,18 @@ export default function Home() {
         <Chi/>
         <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
         <Cle/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Dal/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Den/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Det/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Gsw/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Hou/>
+        <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
+        <Ind/>
         <div className='mt-3 mb-6 h-auto w-full border-2 border-cyan-600'/>
       </div>
 

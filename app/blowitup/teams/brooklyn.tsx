@@ -1,11 +1,8 @@
 "use client"
 import * as NBAIcons from 'react-nba-logos'; 
 import { useState } from 'react';
-import JaylenBrown from '../players/jaylen_brown';
-import Kristaps from '../players/kristaps';
-import JalenWilliams from '../players/jalen_williams';
-import Chet from '../players/chet';
-import JoshGiddey from '../players/josh_giddey';
+import Mikal from '../players/mikal_bridges';
+import Harrison from '../players/harrison_barnes';
 
 function Accordion({title,children}: {title: string, children: any }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +28,7 @@ function Accordion({title,children}: {title: string, children: any }) {
   );
 }
 
-export default function Bos() {
+export default function Bkn() {
 
   return (
     <section className='w-full'>
@@ -52,13 +49,13 @@ export default function Bos() {
             <NBAIcons.BKN/>
           </p>
           <div className="w-full mr-3 items-center p-1 text-sm leading-4 bg-gray-300 text-black no-underline overflow-hidden border border-neutral-200 rounded-lg opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
-            <h3 className='text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-neutral-800 via-neutral-500 to-neutral-800'>Brooklyn Nets</h3>
+            <h3 className='px-4 text-lg font-semibold p-2 bg-clip-text text-transparent bg-gradient-to-r from-neutral-800 via-neutral-500 to-neutral-800'>Brooklyn Nets</h3>
             <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Brooklyn has very few options, so we're going to try and maximize draft returns. We auction Mikal & Co. between OKC, San Antonio, Utah and New Orleans.`}</p>
-            <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Utah bows out quick, seeing no benefit in going from 12th to 12th. San Antonio hangs up when we jokingly ask for Wemby then calls back about Ben Simmons.  Finally we land on:`}</p>
+            <p className='px-2 md:px-4 pb-2 leading-5 text-[0.8rem] font-semibold'>{`Utah bows out quick, seeing no benefit in going from 12th to 12th. San Antonio hangs up when we jokingly ask for Wemby but calls back later about Ben Simmons.  Finally we land on:`}</p>
             <Accordion title="Mikal & Co. for... ">
               <div className='flex flex-col md:flex-row'>
                 <div className='flex flex-col'>
-                  <p className='mb-3 mt-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'><strong className='bg-clip-text text-transparent bg-gradient-to-r from-neutral-800 via-neutral-500 to-neutral-800'>{`Who cares? `}</strong>  {`They can't get picks swapping Bridges (+ Claxton?) for Ingram with New Orleans... maybe Mikal for Harrison Barnes + a first round pick... how about a sign-and-trade for Chandler Parsons? I mean Gordan Hayward (and picks)?`}</p>
+                  <p className='mb-3 mt-3 px-4 md:pr-2 md:pb-2 text-[0.8rem] font-semibold'><strong className='bg-clip-text text-transparent bg-gradient-to-r from-neutral-800 via-neutral-500 to-neutral-800'>{`Who cares? `}</strong>  {`They can't get picks from swapping Bridges (+ Claxton?) for Ingram with New Orleans... maybe Mikal for Harrison Barnes and a first round pick... maybe a sign-and-trade for Chandler Parsons? I mean Gordan Hayward (and picks) from OKC?`}</p>
                 </div>
                 <div className='mt-0 mb-0 h-auto w-auto md:border-2 border-neutral-100'/>
                 <img src='/trades/nets.png' alt='Celtics' className="w-2/3 md:w-1/2 mx-auto h-0 md:h-full object-cover border-1 border-white md:my-0"/>
@@ -68,13 +65,13 @@ export default function Bos() {
                 <div className='flex flex-col mb-3 mx-auto md:ml-3 md:mr-3'>
                   <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Brooklyn receives:</em> 
                   <div className='flex flex-wrap justify-center md:justify-start '>
-            
+                    <Harrison/>
                   </div>
                 </div>
                 <div className='flex flex-col mb-3 mx-auto md:ml-3 md:mr-3'>
-                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>____ receives:</em>
+                  <em className='md:max-w-[300px] font-semibold text-center md:text-left'>Scramento receives:</em>
                   <div className='flex flex-wrap justify-center md:space-x-3'>
-                  
+                    <Mikal/>
                   </div>
                 </div>
               </div>
