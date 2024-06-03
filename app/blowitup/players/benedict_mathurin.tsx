@@ -3,7 +3,7 @@ import * as d3 from 'd3';
 import Papa from 'papaparse';
 
 const BenedictMathurin: React.FC = () => {
-    const [playerName, setPlayerName] = useState<string>('Benedict Mathurin');
+    const [playerName, setPlayerName] = useState<string>('Bennedict Mathurin');
     const [playerStats, setPlayerStats] = useState<{ [key: string]: number }>({});
     const svgRef = useRef<SVGSVGElement | null>(null);
 
